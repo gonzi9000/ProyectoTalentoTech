@@ -1,0 +1,77 @@
+
+body{
+    font-family: "Host Grotesk", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0  20px rgba(0,0,0, 0.2);
+    border-radius: 10px; /* esquinas del cuadro*/
+    text-align: center;
+    width: 340px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h1{
+    font-size: 35px;
+}
+
+fieldset{
+    border: none;
+}
+
+label{
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 20px;
+    background-color: #f5e082; /*la wea verde del relleno*/
+    border: 2px solid #f0faf1;
+    color: #283629;
+    outline: none;
+}
+
+.btn{
+    font-size: 16px;
+    color: #ffff;
+    bottom: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    box-shadow: 0 0 20px rgba(25,254,0,0.4);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #50e048;
+}
+
+@media(max-width){
+    body{
+        padding: 30px;
+    }
+
+    form{
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    input{
+        padding: 15px;
+    }
+}

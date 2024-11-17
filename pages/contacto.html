@@ -5,16 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="shortcut icon" href="../image/icono.avif" type="image/x-icon">
+    <link rel="stylesheet" href="../style/contactoStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Contacto via Web</h1>
-    <form action="mensaje" method="post">
-        <fieldset>
+
+  
+    <form action="https://formsubmit.co/tierrasnuevas2@gmail.com" method="POST" >
+        <h1>Contacto Web</h1>
+        <fieldset class="input-group">
             <label for="nombre">Nombre:</label>
             <input type="text" placeholder="Escribe tu Nombre" name="nombre" id="nombre">
+
             <label for="apellido">Apellido</label>
-            <input type="text" placeholder="Escribe tu Apellido" name="apellido" id="apellido">
-            
+            <input type="text" placeholder="Escribe tu Apellido" name="apellido" id="apellido"><br>
+
+           <label for="correo Electronico">Correo Electronico:</label>
+           <input type="email" name="email" id="email" placeholder="Escribe tu mail">
+
+           <label for="celular">Telefono celular:</label>
+           <input type="tel" placeholder="Ej: 1156789045" name="celular" id="celular"><br>
+
+           <label for="consulta">Consulta:</label><br>
+           <textarea name="consulta" id="consulta" placeholder="Escriba su consulta " cols="30" rows="5"></textarea><br>
+
+            <input type="submit" class="btn" value="Enviar" name="boton">
 
 
         </fieldset>
