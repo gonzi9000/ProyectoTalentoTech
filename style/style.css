@@ -1,0 +1,9 @@
+/*IMAGEN DE FONDO*/
+body{
+    background-image: url(../image/img_4178.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
