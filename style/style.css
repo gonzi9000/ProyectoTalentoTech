@@ -11,7 +11,7 @@
 
 /*IMAGEN DE FONDO*/
 body{
-    background-image: url(../image/img_4178.webp);
+    background-image: url(../image/cerrajero-que-trabaja-taller-lleno-llaves-herramientas-trabajo_31965-372225.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -24,6 +24,7 @@ header{
     display: flex;
     height: 70px;
     justify-content: space-between;
+    background-color: rgba(23, 48, 59, 0.801);
     
 
 }
